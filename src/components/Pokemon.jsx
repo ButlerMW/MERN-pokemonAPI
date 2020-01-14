@@ -44,3 +44,87 @@ const Pokemon = () => {
   
 };
 export default Pokemon;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, { useState, useEffect } from 'react';
+// import axios from 'axios'
+
+// const Pokemon = (props) => {
+    
+//     let [state, setState] = useState([]);
+
+//     const onClickHandler = () => {  
+//         axios.get('https://pokeapi.co/api/v2/pokemon/?limit=807')
+//         // .then(response => response.json())
+//         .then(response => {
+//             state = response.data.results; 
+//             setState([...state])}
+//             );
+//         // console.log(response);
+//         console.log(state);
+//     };
+
+
+//     return (
+//         <div>
+//             <button onClick={onClickHandler}>Fetch Pokemon</button>
+//             {state.map((item, index) => {
+//                 return (<div key={index}>{item.name}</div>)
+//             })}
+//         </div>
+//     );
+  
+// };
+// export default Pokemon;
